@@ -9,12 +9,12 @@
 
 1. Submit Job
 ``` 
-hadoop jar /niket/mapreduce/stocks/StockPriceAnalysis.jar com.stock.maxcloseprice.MaxClosePrice /user/niket/input/stocks output/mapreduce/stocks
+$ hadoop jar /niket/mapreduce/stocks/StockPriceAnalysis.jar com.stock.maxcloseprice.MaxClosePrice /user/niket/input/stocks output/mapreduce/stocks
 ```
 
 2. View Result
 ```
-hadoop fs -cat output/mapreduce/stocks/part-r-00000
+$ hadoop fs -cat output/mapreduce/stocks/part-r-00000
 ```
 
 
@@ -22,15 +22,21 @@ hadoop fs -cat output/mapreduce/stocks/part-r-00000
 
 1. Submit Pig Script
 ```
-pig /niket/pig/stocks/max-closeprice.pig
+$ pig /niket/pig/stocks/max-closeprice.pig
 ```
 
 2. View Result
 ```
-hadoop fs -cat output/pig/stocks/part-r-00000
+$ hadoop fs -cat output/pig/stocks/part-r-00000
 ```
 
+#### Hive
 
+1. Enter into Hive shell
+```
+$ hive
+```
+2. Run all the Hive queries from the source file.
 
 
 
