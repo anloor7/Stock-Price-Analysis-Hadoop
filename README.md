@@ -36,7 +36,6 @@ hadoop fs -cat output/pig/stocks/part-r-00000
 
 ## Results
 
-1. Hadoop MapReduce
 - screenshot 1
 
 ![Screen Shot 1](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/hadoop%20(1).png)
