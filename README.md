@@ -36,6 +36,7 @@ hadoop fs -cat output/pig/stocks/part-r-00000
 
 ## Results
 
+1. MapReduce
 - screenshot 1
 
 ![Screen Shot 1](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/hadoop%20(1).png)
@@ -47,3 +48,13 @@ hadoop fs -cat output/pig/stocks/part-r-00000
 - screenshot 3
 
 ![Screen Shot 3](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/hadoop%20(3).png)
+
+2. Pig
+
+- Screenshot 1
+
+![Screen Shot 1](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/pig%20(1).png)
+
+![Screen Shot 2](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/pig%20(2).png)
+
+![Scree Shot 3](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/pig%20(3).png)
