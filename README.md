@@ -55,6 +55,10 @@ hadoop fs -cat output/pig/stocks/part-r-00000
 
 ![Screen Shot 1](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/pig%20(1).png)
 
+- Screenshot 2
+
 ![Screen Shot 2](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/pig%20(2).png)
+
+- Screenshot 3
 
 ![Scree Shot 3](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/pig%20(3).png)
