@@ -42,6 +42,10 @@ $ hive
 
 ## Results
 
+Sample Input
+
+![Sample Input](https://github.com/niketpatel2525/Stock-Price-Analysis-Hadoop/blob/master/4.%20screenshots/sample%20input.png)
+
 1. MapReduce
 - screenshot 1
 
