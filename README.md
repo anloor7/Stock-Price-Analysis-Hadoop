@@ -38,7 +38,19 @@ $ hive
 ```
 2. Run all the Hive queries from the source file.
 
-
+#### Spark
+1. ENter into spark-shell
+```
+$ spark-shell --master spark://node1:7077
+```
+2. Run all scala instruction in spark shell
+```
+scala> val stocks = sc.textFile('/user/niket/stocks-datasets')
+scala> val splits = stocks.map(record => record.split(","))
+scala> val symbol = splits.map(arr => (arr(1), arr(7).toInt))
+scala> val maxvol = symbol.reduceByKey((vol1, vol2) => Math.max(vol1,vol2))
+scalla> maxvol.collect().foreach(println)
+```
 
 ## Results
 
